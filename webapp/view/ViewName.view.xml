@@ -59,7 +59,6 @@
                 <core:Item xmlns:core="sap.ui.core" key="item-1-key" text="Germany" id="item2"/>
                 <core:Item xmlns:core="sap.ui.core" key="item-2-key" text="USA" id="item3"/>
                 <core:Item xmlns:core="sap.ui.core" key="item-3-key" text="Philippines" id="item4"/>
-                <core:Item xmlns:core="sap.ui.core" key="item-4-key" text="Japan" id="item5"/>
                 </items>
             
         </ComboBox>
