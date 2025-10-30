@@ -1,0 +1,75 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="com.ui5.train.sampleapp.controller.ViewName"><Page id="page" title="{i18n>title}">
+    <content>
+        <sap.ui.layout.form:Form xmlns:sap.ui.layout.form="sap.ui.layout.form" editable="true" id="form2">
+            <sap.ui.layout.form:formContainers>
+                <sap.ui.layout.form:FormContainer id="container3">
+                    <sap.ui.layout.form:formElements>
+                        <sap.ui.layout.form:FormElement label="Name:" id="element5">
+                            <sap.ui.layout.form:fields>
+                                <Input width="100%" id="input2"/>
+                            </sap.ui.layout.form:fields>
+                        </sap.ui.layout.form:FormElement>
+                    </sap.ui.layout.form:formElements>
+                </sap.ui.layout.form:FormContainer>
+            </sap.ui.layout.form:formContainers>
+            <sap.ui.layout.form:layout>
+                <sap.ui.layout.form:ResponsiveGridLayout id="layout1"/>
+            </sap.ui.layout.form:layout></sap.ui.layout.form:Form>
+        <sap.ui.layout.form:Form xmlns:sap.ui.layout.form="sap.ui.layout.form" editable="true" id="form3">
+            <sap.ui.layout.form:formContainers>
+                <sap.ui.layout.form:FormContainer id="container4">
+                    <sap.ui.layout.form:formElements>
+                        <sap.ui.layout.form:FormElement label="Street/No.:" id="element6">
+                            <sap.ui.layout.form:fields>
+                                <Input width="100%" id="input5"/>
+                                <Input width="100%" id="input6"/>
+                            </sap.ui.layout.form:fields>
+                        </sap.ui.layout.form:FormElement>
+                    </sap.ui.layout.form:formElements>
+                </sap.ui.layout.form:FormContainer>
+            </sap.ui.layout.form:formContainers>
+            <sap.ui.layout.form:layout>
+                <sap.ui.layout.form:ResponsiveGridLayout id="layout2"/>
+            </sap.ui.layout.form:layout></sap.ui.layout.form:Form>
+        <sap.ui.layout.form:Form xmlns:sap.ui.layout.form="sap.ui.layout.form" editable="true" id="form1">
+            <sap.ui.layout.form:formContainers>
+                <sap.ui.layout.form:FormContainer id="container2">
+                    <sap.ui.layout.form:formElements>
+                        <sap.ui.layout.form:FormElement label="Zip Code/City" id="element4">
+                            <sap.ui.layout.form:fields>
+                                <Input width="100%" id="input3"/>
+                                 <Input width="100%" id="input4"/>
+                            </sap.ui.layout.form:fields>
+                        </sap.ui.layout.form:FormElement>
+                    </sap.ui.layout.form:formElements>
+                </sap.ui.layout.form:FormContainer>
+            </sap.ui.layout.form:formContainers>
+            <sap.ui.layout.form:layout>
+                <sap.ui.layout.form:ResponsiveGridLayout id="layout0"/>
+            </sap.ui.layout.form:layout></sap.ui.layout.form:Form>
+        <sap.ui.layout.form:Form xmlns:sap.ui.layout.form="sap.ui.layout.form" editable="true" id="form0">
+            <sap.ui.layout.form:formContainers>
+                <sap.ui.layout.form:FormContainer id="container0">
+                    <sap.ui.layout.form:formElements>
+                        <sap.ui.layout.form:FormElement label="Country" id="element0">
+                            <sap.ui.layout.form:fields>
+                             <ComboBox xmlns="sap.m" id="box1">
+            <items>
+                <core:Item xmlns:core="sap.ui.core" key="item-0-key" text="England" id="item1"/>
+                <core:Item xmlns:core="sap.ui.core" key="item-1-key" text="Germany" id="item2"/>
+                <core:Item xmlns:core="sap.ui.core" key="item-2-key" text="USA" id="item3"/>
+                <core:Item xmlns:core="sap.ui.core" key="item-3-key" text="Philippines" id="item4"/>
+                </items>
+            
+        </ComboBox>
+                            </sap.ui.layout.form:fields>
+                        </sap.ui.layout.form:FormElement>
+                    </sap.ui.layout.form:formElements>
+                </sap.ui.layout.form:FormContainer>
+            </sap.ui.layout.form:formContainers>
+            <sap.ui.layout.form:layout>
+                <sap.ui.layout.form:ResponsiveGridLayout id="layout0_1761624201458"/>
+            </sap.ui.layout.form:layout></sap.ui.layout.form:Form><Button xmlns="sap.m" text="Save" id="button1" type="Accept"/><Button xmlns="sap.m" text="Clear" id="button0" type="Reject"/>
+    </content>
+    </Page>
+</mvc:View>
